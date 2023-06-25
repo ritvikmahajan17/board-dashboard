@@ -1,21 +1,9 @@
 import React from "react";
 import chevron_down from "../../assets/chevron-right.svg";
 import { Meetings } from "../Meetings";
+import { dummyMeetingsData } from "../../constants/constants";
 
 export const Scheduler = () => {
-  const dummyMeetingsData = [
-    {
-      heading: "Meeting with suppliers from Kuta Bali",
-      time: "14.00-15.00",
-      location: "at Sunset Road, Kuta, Bali",
-    },
-    {
-      heading: "Check operation at Giga Factory 1",
-      time: "18.00-20.00",
-      location: "at Central Jakarta",
-    },
-  ];
-
   return (
     <div className=" bg-white font-montserrat rounded-[20px]  w-[480px]">
       <div className="flex pt-[30px] px-10 justify-between">

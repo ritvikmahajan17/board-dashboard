@@ -7,25 +7,7 @@ import {
   Scheduler,
   Sidebar,
 } from "../../components";
-
-const cardsData = [
-  {
-    title: "Total Revenues",
-    amount: 2129430,
-  },
-  {
-    title: "Total Transactions",
-    amount: 1520,
-  },
-  {
-    title: "Total Likes",
-    amount: 9720,
-  },
-  {
-    title: "Total Users",
-    amount: 892,
-  },
-];
+import { cardsData } from "../../constants/constants";
 
 //props
 interface DashboardProps {

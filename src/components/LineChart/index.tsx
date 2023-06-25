@@ -9,63 +9,7 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-
-const data = [
-  {
-    name: "",
-    guest: 4000,
-    user: 2400,
-    amt: 2400,
-  },
-  {
-    name: "Week 1",
-    guest: 3000,
-    user: 1398,
-    amt: 2210,
-  },
-  {
-    name: "",
-    guest: 2000,
-    user: 9800,
-    amt: 2290,
-  },
-  {
-    name: "Week 2",
-    guest: 2780,
-    user: 3908,
-    amt: 2000,
-  },
-  {
-    name: "",
-    guest: 2000,
-    user: 9800,
-    amt: 2290,
-  },
-  {
-    name: "Week 3",
-    guest: 2780,
-    user: 3908,
-    amt: 2000,
-  },
-  {
-    name: "",
-    guest: 2000,
-    user: 9800,
-    amt: 2290,
-  },
-  {
-    name: "Week 4",
-    guest: 2780,
-    user: 3908,
-    amt: 2000,
-  },
-  {
-    name: "",
-    guest: 2000,
-    user: 9800,
-    amt: 2290,
-  },
-];
+import { data } from "../../constants/constants";
 
 export const LineGraph = () => {
   return (

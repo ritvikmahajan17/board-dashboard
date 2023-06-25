@@ -1,4 +1,5 @@
 import React from "react";
+import { tagColor } from "../../constants/constants";
 
 //props
 interface MeetingsProps {
@@ -9,7 +10,6 @@ interface MeetingsProps {
 }
 
 export const Meetings = ({ heading, time, location, index }: MeetingsProps) => {
-  const tagColor = ["#9BDD7C", "#6972C3"];
   return (
     <div className="flex items-center gap-x-3">
       <div
