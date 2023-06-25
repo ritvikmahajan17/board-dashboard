@@ -16,7 +16,7 @@ interface DashboardProps {
 
 export const Dashboard = ({ profilePicture }: DashboardProps) => {
   return (
-    <div className="flex w-[100vw] h-full p-10 ">
+    <div className="flex w-[100vw] h-full pl-10 pb-10 pt-10 ">
       <Sidebar />
       <div className="flex flex-col gap-6 pt-5 pl-10">
         <Navbar profilePicture={profilePicture} />
