@@ -8,7 +8,7 @@ function App() {
   const [profilePicture, setProfilePicture] = useState<string>("");
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/board-dashboard">
       <Routes>
         <Route
           path="/"
