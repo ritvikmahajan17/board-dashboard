@@ -16,9 +16,9 @@ interface DashboardProps {
 
 export const Dashboard = ({ profilePicture }: DashboardProps) => {
   return (
-    <div className="flex w-[100vw] h-full pl-10 pt-10 pb-10 ">
+    <div className="flex w-[100%] h-full pl-10 pb-10 pt-10 ">
       <Sidebar />
-      <div className="flex flex-col gap-6 pt-5 pl-10">
+      <div className="flex w-full flex-col pr-[60px] gap-6 pt-5 pl-10">
         <Navbar profilePicture={profilePicture} />
         <div className="flex justify-between w-full gap-x-9">
           {cardsData.map((card, index) => (
