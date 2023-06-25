@@ -17,7 +17,11 @@ export const PieGraph = () => {
         <div className="text-lg font-bold font-montserrat">Top Products</div>
         <div className="flex items-center gap-x-[5px]">
           <div className="text-sm text-[#858585]">May-June 2021</div>
-          <img src={chevron_down} className="w-2 h-[5px]" alt="hello" />
+          <img
+            src={chevron_down}
+            className="w-2 cursor-pointer h-[5px]"
+            alt="hello"
+          />
         </div>
       </div>
       <div className="flex items-center px-10 gap-x-5">

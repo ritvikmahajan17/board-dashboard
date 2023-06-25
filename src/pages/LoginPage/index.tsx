@@ -47,7 +47,7 @@ export const LoginPage = ({ setProfilePicture }: LoginPageProps) => {
             </div> */}
               <GoogleOAuthProvider clientId="253371619279-kqb3hktgs16fsnbt05uagh5acp8j94b0.apps.googleusercontent.com">
                 <GoogleLogin
-                  onSuccess={(credentialResponse) => {
+                  onSuccess={async (credentialResponse) => {
                     console.log("Login Success");
                     console.log(credentialResponse);
                     const token = credentialResponse.credential;
@@ -55,7 +55,11 @@ export const LoginPage = ({ setProfilePicture }: LoginPageProps) => {
                       const decoded: any = jwt_decode(token);
                       console.log(decoded);
                       navigate("/dashboard");
-                      localStorage.setItem("profilePicture", decoded.picture);
+                      localStorage.clear();
+                      await localStorage.setItem(
+                        "profilePicture",
+                        decoded.picture
+                      );
                       setProfilePicture(decoded.picture);
                     }
                   }}

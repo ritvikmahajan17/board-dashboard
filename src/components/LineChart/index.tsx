@@ -75,7 +75,7 @@ export const LineGraph = () => {
           <div className="text-lg font-bold text-slate-900">Activities</div>
           <div className="flex gap-x-[5px]">
             <div className="text-sm text-[#858585]">May-June 2021</div>
-            <img src={chevron_down} alt="hello" />
+            <img className="cursor-pointer" src={chevron_down} alt="hello" />
           </div>
         </div>
         <div className="flex gap-x-[35px] pr-[60px]">

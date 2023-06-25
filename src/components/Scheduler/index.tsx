@@ -24,7 +24,11 @@ export const Scheduler = () => {
         </div>
         <div className="flex items-center gap-x-[5px]">
           <div className="text-sm text-[#858585]">See All</div>
-          <img src={chevron_down} className="w-3 h-2" alt="hello" />
+          <img
+            src={chevron_down}
+            className="w-3 h-2 cursor-pointer"
+            alt="hello"
+          />
         </div>
       </div>
       <div className="flex items-center px-10 pt-6 pb-6 gap-x-5">
