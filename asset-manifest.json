@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/board-dashboard/static/css/main.a0fcbcac.css",
-    "main.js": "/board-dashboard/static/js/main.0a9bc6dd.js",
+    "main.css": "/board-dashboard/static/css/main.b0d8e1b2.css",
+    "main.js": "/board-dashboard/static/js/main.1e63ff00.js",
     "static/js/787.545aecf5.chunk.js": "/board-dashboard/static/js/787.545aecf5.chunk.js",
     "static/media/setting_icon.svg": "/board-dashboard/static/media/setting_icon.203aedc851505140ec3678d398d4f9a5.svg",
     "static/media/camera.svg": "/board-dashboard/static/media/camera.7163d1e5f1d77175fce4493e139fb168.svg",
@@ -18,12 +18,12 @@
     "static/media/chevron-down.svg": "/board-dashboard/static/media/chevron-down.89de82ac6a8eee4727d25c7a9148ba0c.svg",
     "static/media/chevron-right.svg": "/board-dashboard/static/media/chevron-right.a52a0390dd968efd7747a78b32052811.svg",
     "static/media/Search_icon.svg": "/board-dashboard/static/media/Search_icon.8513f4d8b9733dc777a4c3561d287cf3.svg",
-    "main.a0fcbcac.css.map": "/board-dashboard/static/css/main.a0fcbcac.css.map",
-    "main.0a9bc6dd.js.map": "/board-dashboard/static/js/main.0a9bc6dd.js.map",
+    "main.b0d8e1b2.css.map": "/board-dashboard/static/css/main.b0d8e1b2.css.map",
+    "main.1e63ff00.js.map": "/board-dashboard/static/js/main.1e63ff00.js.map",
     "787.545aecf5.chunk.js.map": "/board-dashboard/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0fcbcac.css",
-    "static/js/main.0a9bc6dd.js"
+    "static/css/main.b0d8e1b2.css",
+    "static/js/main.1e63ff00.js"
   ]
 }
