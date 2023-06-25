@@ -24,5 +24,14 @@ To use this React app, follow these steps:
    npm start
    
  This should spin up the web app on port **3000**
+
+ ## Bonus Features
+
+ 1. Toastify error msg's (try clicking on the sign in btn)
+ 2. Animated metrics when u redirect to dashboard
+ 3. One tap google login (available after 1st login)
+
+
+
    
 
