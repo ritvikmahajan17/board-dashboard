@@ -17,7 +17,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="rounded-[30px] min-w-[280px] bg-black">
+    <div className="rounded-[30px] min-w-[17.5rem] bg-black">
       <div className="flex flex-col gap-y-[60px] justify-between text-white h-full p-14">
         <div className=" flex flex-col gap-y-[60px]">
           <div className="text-4xl font-bold cursor-pointer font-montserrat">

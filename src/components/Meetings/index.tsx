@@ -14,7 +14,7 @@ export const Meetings = ({ heading, time, location, index }: MeetingsProps) => {
     <div className="flex items-center gap-x-3">
       <div
         style={{ backgroundColor: tagColor[index] }}
-        className="w-[5px] h-[66px] bg-red-400"
+        className="w-[5px] h-[4.125rem] bg-red-400"
       ></div>
       <div className="flex flex-col">
         <div className="text-sm font-bold font-lato text-[#666]">{heading}</div>

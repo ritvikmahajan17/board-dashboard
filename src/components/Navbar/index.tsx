@@ -21,7 +21,7 @@ export const Navbar = ({ profilePicture }: NavbarProps) => {
       <div className="flex gap-x-[30px]">
         <div className="relative flex items-center">
           <input
-            className="rounded-[10px] p-3 w-[180px] h-[30px]"
+            className="rounded-[10px] p-3 w-[11.25rem] h-[30px]"
             type="text"
             placeholder="Search..."
           />

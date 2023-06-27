@@ -37,7 +37,7 @@ export const Cards = ({ index, title, amount }: CardsProps) => {
   return (
     <div
       style={{ backgroundColor: cardInfo[index].color }}
-      className="flex flex-col w-[220px] h-32  rounded-[20px]"
+      className="flex flex-col w-[13.75rem] h-32  rounded-[20px]"
     >
       <div className="flex justify-end py-4 pr-6">
         <img src={cardInfo[index].icon} className="self-end" alt="" />

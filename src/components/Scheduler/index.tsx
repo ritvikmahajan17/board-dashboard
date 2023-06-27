@@ -5,7 +5,7 @@ import { dummyMeetingsData } from "../../constants/constants";
 
 export const Scheduler = () => {
   return (
-    <div className=" bg-white font-montserrat rounded-[20px]  w-[480px]">
+    <div className=" bg-white font-montserrat rounded-[20px]  w-[30rem]">
       <div className="flex pt-[30px] px-10 justify-between">
         <div className="text-lg font-bold font-montserrat">
           Today’s schedule
