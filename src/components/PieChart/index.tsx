@@ -1,5 +1,5 @@
 import React from "react";
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import chevron_down from "../../assets/chevron-down.svg";
 
 const data = [
@@ -12,7 +12,7 @@ const COLORS = ["#EE8484", "#98D89E", "#F6DC7D"];
 
 export const PieGraph = () => {
   return (
-    <div className=" bg-white font-montserrat rounded-[20px]  w-[480px]">
+    <div className=" bg-white font-montserrat rounded-[20px]  w-[30rem]">
       <div className="flex pt-[30px] px-10 justify-between">
         <div className="text-lg font-bold font-montserrat">Top Products</div>
         <div className="flex items-center gap-x-[5px]">
@@ -26,24 +26,26 @@ export const PieGraph = () => {
       </div>
       <div className="flex items-center px-10 gap-x-5">
         <div>
-          <PieChart width={200} height={200}>
-            <Pie
-              data={data}
-              //   cx={200}
-              //   cy={200}
-              labelLine={false}
-              //   outerRadius={80}
-              fill="#8884d8"
-              dataKey="value"
-            >
-              {data.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
-                />
-              ))}
-            </Pie>
-          </PieChart>
+          <ResponsiveContainer width={200} height={200}>
+            <PieChart width={200} height={200}>
+              <Pie
+                data={data}
+                //   cx={200}
+                //   cy={200}
+                labelLine={false}
+                //   outerRadius={80}
+                fill="#8884d8"
+                dataKey="value"
+              >
+                {data.map((entry, index) => (
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={COLORS[index % COLORS.length]}
+                  />
+                ))}
+              </Pie>
+            </PieChart>
+          </ResponsiveContainer>
         </div>
         <div className="flex flex-col gap-y-3">
           <div className="flex flex-col">
