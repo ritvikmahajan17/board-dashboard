@@ -48,7 +48,7 @@ export const LoginPage = ({ setProfilePicture }: LoginPageProps) => {
                     const token = credentialResponse.credential;
                     if (token) {
                       const decoded: any = jwt_decode(token);
-                      console.log(decoded);
+                      // console.log(decoded);
                       navigate("/dashboard");
                       localStorage.clear();
                       await localStorage.setItem(
@@ -75,7 +75,7 @@ export const LoginPage = ({ setProfilePicture }: LoginPageProps) => {
                 <div className="text-center">Sign in with Apple</div>
               </div>
             </div>
-            <div className="bg-white p-5 mt-7 rounded-[10px] min-w-[385px]">
+            <div className="bg-white p-5 mt-7 rounded-[10px] w-full">
               <div className="pl-1 text-base font-lato">Email Address</div>
               <input
                 className="bg-[#F5F5F5] mt-[10px] w-full h-10 rounded-[10px] pl-4"

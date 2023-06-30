@@ -7,7 +7,11 @@ module.exports = {
       fontFamily: {
         "montserrat": ["Montserrat"],
         "lato": ["Lato"],
-      }
+      },
+      screens: {
+        "custom": "1410px",
+        "custom2": "2340px",
+      },
     },
   },
   plugins: [],

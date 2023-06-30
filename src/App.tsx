@@ -8,22 +8,24 @@ function App() {
   const [profilePicture, setProfilePicture] = useState<string>("");
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={<LoginPage setProfilePicture={setProfilePicture} />}
-        />
-        <Route
-          path="/dashboard"
-          element={
-            <ProtectedRoute>
-              <Dashboard profilePicture={profilePicture} />{" "}
-            </ProtectedRoute>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+    <div className="h-[100%] 2xl:h-[100vh]">
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={<LoginPage setProfilePicture={setProfilePicture} />}
+          />
+          <Route
+            path="/dashboard"
+            element={
+              <ProtectedRoute>
+                <Dashboard profilePicture={profilePicture} />{" "}
+              </ProtectedRoute>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

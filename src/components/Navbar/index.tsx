@@ -15,6 +15,8 @@ export const Navbar = ({ profilePicture }: NavbarProps) => {
     profilePic = profilePicture;
   }
 
+  console.log(profilePic);
+
   return (
     <div className="flex items-center justify-between w-full font-montserrat">
       <div className="flex text-2xl font-bold font-montserrat">Dashboard</div>
